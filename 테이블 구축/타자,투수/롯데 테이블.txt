@@ -1,0 +1,35 @@
+		H#, HNAME, C#,    PA, AB, H, B2, B3, HR,   GO, AO
+
+//롯데 타자
+insert all
+into HITTER values ('L47', '강민호', 'C3', 515, 456, 130, 22, 1, 22, 124, 101)
+into HITTER values ('L13', '김사훈', 'C3', 89, 76, 14, 3, 0, 0, 22, 20)
+into HITTER values ('L10', '이대호', 'C3', 608, 540, 173, 13, 0, 34, 118, 168)
+into HITTER values ('L56', '신본기', 'C3', 381, 325, 77, 11, 0, 5, 110, 67)
+into HITTER values ('L25', '최준석', 'C3', 464, 409, 119, 15, 0, 14, 120, 86)
+into HITTER values ('L98', '번즈', 'C3', 468, 423, 128, 38, 0, 15, 84, 114)
+into HITTER values ('L6', '문규현', 'C3', 337, 304, 82, 15, 2, 6, 103, 80)
+into HITTER values ('L31', '손아섭', 'C3', 667, 576, 193, 35, 4, 20, 175, 115)
+into HITTER values ('L24', '김문호', 'C3', 448, 390, 114, 17, 1, 2, 121, 83)
+into HITTER values ('L8', '전준우', 'C3', 496, 455, 146, 27, 1, 18, 125, 116)
+into HITTER values ('L17', '이우민', 'C3', 215, 185, 47, 5, 1, 4, 65, 35)
+select * from dual;
+
+
+			P#, PNAME, C#, SO, BB, HBP
+//롯데 투수
+insert all
+into PITCHER values ('L46', '레일리', 'C3', 156, 44, 17)
+into PITCHER values ('L32', '박세웅', 'C3', 117, 56, 9)
+into PITCHER values ('L34', '김원중', 'C3', 87, 56, 10)
+into PITCHER values ('L49', '배장호', 'C3', 47, 19, 8)
+into PITCHER values ('L62', '손승락', 'C3', 62, 11, 1)
+into PITCHER values ('L60', '장시환', 'C3', 57, 31, 4)
+select * from dual;
+
+
+
+
+
+
+

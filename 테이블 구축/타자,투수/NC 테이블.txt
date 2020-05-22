@@ -1,0 +1,31 @@
+
+		H#, HNAME, C#,    PA, AB, H, B2, B3, HR,   GO, AO
+//NC 타자
+insert all
+into HITTER values ('N42','김태군','C4',420,362,96, 19, 0, 3, 105, 120)
+into HITTER values ('N20','박광열','C4',66, 63, 12, 7, 1, 1, 19, 14)
+into HITTER values ('N3','모창민','C4',527, 474, 148, 25, 3, 17, 113, 141)
+into HITTER values ('N13','손시헌','C4',391, 349, 122, 17, 1, 5, 90, 98)
+into HITTER values ('N10','지석훈','C4', 304, 268, 64, 16, 0, 6, 68, 71)
+into HITTER values ('N35','스크럭스','C4', 518, 437, 131, 24, 0, 35, 92, 84)
+into HITTER values ('N2','박민우','C4', 452, 388, 141, 25, 4, 3, 110, 90)
+into HITTER values ('N36','권희동','C4', 554, 472, 135, 20, 2, 19, 120, 134)
+into HITTER values ('N47','나성범','C4', 561, 498, 173, 42, 2, 24, 113, 99)
+into HITTER values ('N31','김성욱','C4', 347, 308, 76, 18, 4, 6, 61, 117)
+into HITTER values ('N39','이종욱','C4', 355, 318, 98, 15, 0, 5, 106, 86)
+select * from dual;
+
+		P#, PNAME, C#, SO, BB, HBP
+//NC 투수
+insert all
+into PITCHER values ('N8', '해커', 'C4', 97, 29, 14)
+into PITCHER values ('N59', '구창모', 'C4', 118, 50, 5)
+into PITCHER values ('N51', '이재학', 'C4', 117, 41, 13)
+into PITCHER values ('N55', '김진성', 'C4', 98, 27, 2)
+into PITCHER values ('N46', '원종현', 'C4', 69, 19, 7)
+into PITCHER values ('N29', '이민호', 'C4', 86, 30, 8)
+select * from dual;
+
+update hitter
+set C#='C4'
+where C#='C4';

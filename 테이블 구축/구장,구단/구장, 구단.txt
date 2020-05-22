@@ -1,0 +1,58 @@
+			S# SNAME HCLUB LRF LR CF FH		
+//구장 삽입
+insert all
+into STADIUM values('S1','광주','KIA',99,116,121,2.6)
+into STADIUM values('S2','잠실','두산',100,120,125,2.6)
+into STADIUM values('S3','사직','롯데',95,113,118,4.8)
+into STADIUM values('S4','마산','NC',97,110,116,3.8)
+select * from dual;
+
+
+//컬럼 속성명 변경
+alter table STADIUM rename column LRH to LRF;
+alter table STADIUM rename column CH to CF;
+
+
+
+		  C# CNAME S# GN W L D WR
+//구단 삽입
+insert all
+into CLUB values('C1','KIA','S1',144,87,46,1,0.608)
+into CLUB values('C2','두산','S2',144,84,57,3,0.596)
+into CLUB values('C3','롯데','S3',144,80,62,2,0.563)
+into CLUB values('C4','NC','S4',144,79,62,3,0.560)
+select * from dual;
+
+
+//club WR 정수형을 실수형으로 변경
+alter table CLUB modify(WR number(5,5));
+
+//stadium FH 정수형을 실수형으로 변경
+alter table STADIUM modify(FH number(15,2));
+
+
+//FH값 업데이트 
+update STADIUM
+set FH=2.6
+where S#='S1';
+
+update STADIUM
+set FH=2.6
+where S#='S2';
+
+update STADIUM
+set FH=4.8
+where S#='S3';
+
+update STADIUM
+set FH=3.8
+where S#='S4';
+
+
+//데이터 삭제
+delete from STADIUM
+where S# = 'K2';
+
+delete from STADIUM
+where S# = 'K3';
+

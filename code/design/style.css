@@ -1,0 +1,22 @@
+body {
+		font-family: Arial, "Trebuchet MS", sans-serif;
+		margin: 0px;
+}
+header {
+		display: table;
+		margin-left: auto;
+		margin-right: auto; 
+}
+section {
+		display: table;
+		margin-left: auto;
+		margin-right: auto; 
+}
+nav {
+		display: table;
+		margin-left: auto;
+		margin-right: auto; 
+}
+nav ul {padding-bottom:10px; padding-left:0px;}
+nav ul li {display:inline; border-left:3px solid #999; font:bold 12px Dotum; padding:0 10px;}
+nav ul li:first-child{border-left:none;}

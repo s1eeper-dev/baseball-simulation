@@ -1,0 +1,29 @@
+		H#, HNAME, C#,    PA, AB, H, B2, B3, HR,   GO, AO
+
+//두산 타자
+insert all
+into HITTER values ('D25', '양의지', 'C2', 406,347,96,15,0,14,86,115)
+into HITTER values ('D10', '박세혁', 'C2', 237,201,57,8,0,5,46,58)
+into HITTER values ('D44', '에반스', 'C2', 581,514,152,19,0,27,104,147)
+into HITTER values ('D13', '허경민', 'C2', 422,369,95,22,1,3,121,107)
+into HITTER values ('D53', '최주환', 'C2', 452,399,120,16,6,7,108,118)
+into HITTER values ('D36', '오재일', 'C2', 466,412,126,27,0,26,72,137)
+into HITTER values ('D24', '오재원', 'C2', 390,334,79,16,1,7,92,81)
+into HITTER values ('D32', '김재환', 'C2', 636,544,185,34,2,35,104,136)
+into HITTER values ('D37', '박건우', 'C2', 543,483,177,40,2,20,119,127)
+into HITTER values ('D49', '민병헌', 'C2', 520,447,136,21,0,14,118,125)
+into HITTER values ('D23', '정진호', 'C2', 224,198,56,11,2,5,65,47)
+select * from dual;
+
+
+
+		P#, PNAME, C#, SO, BB, HBP
+//두산 투수
+insert all
+into PITCHER values ('D40', '니퍼트', 'C2', 161,77,10)		
+into PITCHER values ('D29', '유희관', 'C2', 106,41,10)
+into PITCHER values ('D28', '장원준', 'C2', 125,51,14)
+into PITCHER values ('D27', '김강률', 'C2',73,32,3)
+into PITCHER values ('D16', '김승회', 'C2',41,17,6)
+into PITCHER values ('D45', '이용찬', 'C2',57,27,4)
+select * from dual;

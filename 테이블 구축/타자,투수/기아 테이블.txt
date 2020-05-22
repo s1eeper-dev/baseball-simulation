@@ -1,0 +1,35 @@
+		H#, HNAME, C#,    PA, AB, H, B2, B3, HR,   GO, AO
+
+//기아 타자
+insert all
+into HITTER values ('K32', '김민식', 'C1', 392, 352, 78, 9, 2, 4, 90, 131)
+into HITTER values ('K42', '한승택', 'C1', 91,	83, 19, 2, 1, 0, 27, 12)
+into HITTER values ('K3', '김선빈', 'C1', 529, 476, 176, 34, 1, 5, 153, 111)
+into HITTER values ('K8', '안치홍', 'C1', 545, 487, 154, 29, 2, 21, 123, 145)
+into HITTER values ('K4', '서동욱', 'C1', 366,	319, 90, 21, 1, 7, 68, 78)
+into HITTER values ('K16', '김주찬', 'C1', 478, 440, 136, 39, 2, 12, 122, 124)
+into HITTER values ('K25', '이범호', 'C1', 447, 382, 104, 14, 0, 25, 86, 117)
+into HITTER values ('K34', '최현우', 'C1', 629,514,176,36,3,26, 110,154)
+into HITTER values ('K50', '버나디나', 'C1', 621,557,178,26,8,27, 161,115)
+into HITTER values ('K29', '나지완', 'C1', 551,459,138,20,3,27, 91,132)
+into HITTER values ('K27', '이명기', 'C1', 512,464,154,24,4,9, 163,93)
+select * from dual;
+
+
+		P#, PNAME, C#, SO, BB, HBP
+//기아 투수
+insert all
+into PITCHER values ('K54','양현종','C1',158,45,0)
+into PITCHER values ('K43','헥터','C1',149,45,5)
+into PITCHER values ('K45','팻딘','C1',143, 39,16)
+into PITCHER values ('K28','김윤동','C1',66,47,5)
+into PITCHER values ('K1','심동섭','C1',50,21,0)
+into PITCHER values ('K12','임창용','C1',58,22,5)
+select * from dual;
+
+into PITCHER values ('D16', '김승회', 'C2',41,17,6)
+
+
+
+
+
